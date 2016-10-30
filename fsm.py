@@ -6,7 +6,7 @@
 
 def fsmNone():
 	return
-
+"""
 class fsm(object):
 
 	ltable = {} #{oldState:[[input, newState, output]]}
@@ -39,3 +39,4 @@ f = fsm("halt")
 f.add("halt", 1, "run", 1)
 f.sim(1)
 print f
+"""
